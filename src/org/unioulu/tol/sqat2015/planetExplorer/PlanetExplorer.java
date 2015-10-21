@@ -27,7 +27,7 @@ public class PlanetExplorer {
 	}
 	
 	public String land(PlanetExplorer pExp){
-		flightRoute = "";
+		String flightRoute = "";
 		
 		if(explorerFacing == "N"){
 			pExp.turnLeft();
@@ -61,7 +61,7 @@ public class PlanetExplorer {
 			explorerYCoord--;
 		}
 		
-		return "(" + explorerXCoord + "," + explorerYCoord + "," + explorerFacing + ")";
+		return flightRoute;
 		
 	}
 	
