@@ -8,8 +8,8 @@ public class PlanetExplorer {
 	private int sizeX;
 	private int sizeY;
 	
-	public PlanetExpoler(int x, int y){
-		sizeX = x;
+	public PlanetExplorer(int x, int y){
+		this.sizeX = x;
 		sizeY = y;
 	}
 	
