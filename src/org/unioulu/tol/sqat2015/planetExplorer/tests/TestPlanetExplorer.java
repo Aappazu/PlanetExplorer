@@ -86,4 +86,17 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	@Test
+	public void moveForwardFromMaxYMinusOneSouth(){
+		
+		PlanetExplorer pExplorer = new PlanetExplorer(10,10);
+		
+		pExplorer.setLocation(0, 8, "S");
+		
+		pExplorer.moveForward();
+		
+		assertEquals("(0,9,S)", pExplorer.getCurrentLocation());
+		
+	}
+	
 }
