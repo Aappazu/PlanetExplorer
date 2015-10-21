@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
 // Finish time:
+
 public class PlanetExplorer {
 	
 	private String[][] grid;
@@ -11,6 +12,7 @@ public class PlanetExplorer {
 	private String explorerFacing;
 	private int maxXCoord;
 	private int maxYCoord;
+	public static String flightRoute;
 	
 	public PlanetExplorer(int x, int y){
 
