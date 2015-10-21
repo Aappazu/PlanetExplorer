@@ -8,7 +8,7 @@ import org.unioulu.tol.sqat2015.planetExplorer.*;
 public class TestPlanetExplorer {
 
 	@Test
-	public void landingCompleted() {
+	public void landingCompletedRoute() {
 		PlanetExplorer pExplorer = new PlanetExplorer(100,100);
 		
 		pExplorer.setLocation(5, 5,"E");

@@ -144,3 +144,7 @@ CompilationAction 1445431937660 PlanetExplorer.java
 CompilationAction 1445431951726 PlanetExplorer.java
 EditAction 1445431969595 PlanetExplorer.java 3123 8 15 0
 EditAction 1445432060498 TestPlanetExplorer.java 642 2 6 2
+UnitTestCaseAction 1445432062423 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432062424 TestPlanetExplorer OK
+RefactoringAction 1445432077875 TestPlanetExplorer.java RENAME landingCompleted()=>void landingRoute() METHOD
+EditAction 1445432083093 TestPlanetExplorer.java 647 2 6 2
