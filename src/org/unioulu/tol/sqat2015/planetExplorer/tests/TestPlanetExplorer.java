@@ -82,7 +82,7 @@ public class TestPlanetExplorer {
 		
 		pExplorer.moveForward();
 		
-		assertEquals("(0,1,S)", pExplorer.getCurrentLocation());
+		assertEquals("(0,9,S)", pExplorer.getCurrentLocation());
 		
 	}
 	
