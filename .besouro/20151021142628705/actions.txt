@@ -79,3 +79,4 @@ CompilationAction 1445429815898 PlanetExplorer.java
 CompilationAction 1445429816061 PlanetExplorer.java
 RefactoringAction 1445429843587 TestPlanetExplorer.java REMOVE landingCompleted() METHOD
 EditAction 1445429844760 TestPlanetExplorer.java 583 1 3 1
+EditAction 1445429850942 TestPlanetExplorer.java 591 1 3 1
