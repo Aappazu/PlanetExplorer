@@ -101,13 +101,13 @@ public class PlanetExplorer {
 		if(explorerXCoord > 0 && explorerFacing == "W"){
 			explorerXCoord--;
 		}
-		else if(explorerXCoord < 10 && explorerFacing == "E"){
+		else if(explorerXCoord < maxXCoord && explorerFacing == "E"){
 			explorerXCoord++;
 		}
 		else if(explorerYCoord > 0 && explorerFacing == "N"){
 			explorerYCoord--;
 		}
-		else if(explorerYCoord < 10 && explorerFacing == "S"){
+		else if(explorerYCoord < maxYCoord && explorerFacing == "S"){
 			explorerYCoord--;
 		}
 	}
