@@ -121,7 +121,7 @@ public class TestPlanetExplorer {
 		
 		pExplorer.moveForward();
 		
-		assertEquals("(1,0,E)", pExplorer.getCurrentLocation());
+		assertEquals("(9,0,E)", pExplorer.getCurrentLocation());
 		
 	}
 	
