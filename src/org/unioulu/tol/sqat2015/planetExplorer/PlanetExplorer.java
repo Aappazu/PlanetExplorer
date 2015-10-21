@@ -36,6 +36,13 @@ public class PlanetExplorer {
 			explorerXCoord--;
 		}
 		
+		while(explorerYCoord > 0){
+			
+			flightRoute = flightRoute + "f";
+			
+			explorerYCoord--;
+		}
+		
 	}
 	
 	public PlanetExplorer(int x, int y, String obstacles){
