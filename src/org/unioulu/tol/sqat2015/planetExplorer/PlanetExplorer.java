@@ -110,6 +110,9 @@ public class PlanetExplorer {
 		else if(explorerYCoord < maxYCoord && explorerFacing == "S"){
 			explorerYCoord--;
 		}
+		else{
+			
+		}
 	}
 	
 	public PlanetExplorer(int x, int y, String obstacles){
