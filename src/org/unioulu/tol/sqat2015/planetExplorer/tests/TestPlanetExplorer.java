@@ -11,7 +11,7 @@ public class TestPlanetExplorer {
 	public void landingCompleted() {
 		PlanetExplorer pExplorer = new PlanetExplorer(100,100);
 		
-		pExplorer.setLocation(5, 5, "E");
+		pExplorer.setLocation(5, 5,"E");
 		
 		assertEquals("(0,0,N)", pExplorer.land());
 	}

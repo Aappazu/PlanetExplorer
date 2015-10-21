@@ -86,3 +86,9 @@ UnitTestCaseAction 1445429889855 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445429889857 TestPlanetExplorer OK
 RefactoringAction 1445429930951 TestPlanetExplorer.java ADD void landingCompleted() METHOD
 EditAction 1445429982371 TestPlanetExplorer.java 628 2 6 2
+CompilationAction 1445429982478 TestPlanetExplorer.java
+CompilationAction 1445430025104 TestPlanetExplorer.java
+CompilationAction 1445430025264 TestPlanetExplorer.java
+RefactoringAction 1445430044139 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=><initializer /1> null
+RefactoringAction 1445430045157 PlanetExplorer.java RENAME <initializer /1>=>String land() METHOD
+EditAction 1445430430559 PlanetExplorer.java 2001 6 8 0

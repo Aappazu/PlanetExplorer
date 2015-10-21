@@ -26,9 +26,17 @@ public class PlanetExplorer {
 		return "(" + explorerXCoord + "," + explorerYCoord + "," + explorerFacing + ")";
 	}
 	
-	/*public String land(){
+	public String land(){
+		String flightRoute = "";
 		
-	}*/
+		while(explorerXCoord > 0){
+			
+			flightRoute = flightRoute + "f";
+			
+			explorerXCoord--;
+		}
+		
+	}
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
