@@ -82,16 +82,16 @@ public class PlanetExplorer {
 	
 	public void turnRight(){
 		if(explorerFacing == "N"){
-			explorerFacing = "W";
-		}
-		else if(explorerFacing == "E"){
-			explorerFacing = "N";
-		}
-		else if(explorerFacing == "S"){
 			explorerFacing = "E";
 		}
-		else{
+		else if(explorerFacing == "E"){
 			explorerFacing = "S";
+		}
+		else if(explorerFacing == "S"){
+			explorerFacing = "W";
+		}
+		else{
+			explorerFacing = "N";
 		}
 	}
 	
