@@ -13,4 +13,10 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,0,N)", pExplorer.land());
 	}
+	
+	public void currentLocationReturn(){
+		PlanetExplorer pExplorer = new PlanetExplorer(10,10);
+		
+		assertEquals("(5,5,E)", pExplorer.currentLocation());
+	}
 }

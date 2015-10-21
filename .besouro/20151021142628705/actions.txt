@@ -35,3 +35,8 @@ RefactoringAction 1445428360481 TestPlanetExplorer.java RENAME createPlanet()=>v
 RefactoringAction 1445428361993 TestPlanetExplorer.java RENAME lad()=>void landing() METHOD
 RefactoringAction 1445428365005 TestPlanetExplorer.java RENAME landing()=>void landingCompleted() METHOD
 EditAction 1445428413334 TestPlanetExplorer.java 368 1 2 1
+CompilationAction 1445428413608 TestPlanetExplorer.java
+RefactoringAction 1445428421082 PlanetExplorer.java ADD void land() METHOD
+RefactoringAction 1445428617176 TestPlanetExplorer.java ADD void currentLocation() METHOD
+RefactoringAction 1445428719417 TestPlanetExplorer.java RENAME currentLocation()=>void currentLocationReturn() METHOD
+EditAction 1445428814624 TestPlanetExplorer.java 532 2 4 2
