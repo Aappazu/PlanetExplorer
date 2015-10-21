@@ -12,7 +12,7 @@ public class PlanetExplorer {
 	private String explorerFacing;
 	private int maxXCoord;
 	private int maxYCoord;
-	public static String flightRoute;
+	public static String flightRoute = "";
 	
 	public PlanetExplorer(int x, int y){
 
