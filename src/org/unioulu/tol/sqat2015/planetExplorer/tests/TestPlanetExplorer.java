@@ -22,6 +22,8 @@ public class TestPlanetExplorer {
 		
 		pExplorer.setLocation(5,5, "E");
 		
+		pExplorer.land(pExplorer);
+		
 		assertEquals("(0,0,N)", pExplorer.getCurrentLocation());
 	}
 	
