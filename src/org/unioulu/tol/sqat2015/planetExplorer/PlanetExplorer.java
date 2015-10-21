@@ -9,6 +9,8 @@ public class PlanetExplorer {
 	private int explorerXCoord;
 	private int explorerYCoord;
 	private String explorerFacing;
+	private int maxXCoord;
+	private int maxYCoord;
 	
 	public PlanetExplorer(int x, int y){
 
