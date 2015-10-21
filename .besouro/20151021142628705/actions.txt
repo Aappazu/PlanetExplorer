@@ -153,3 +153,11 @@ EditAction 1445432184369 TestPlanetExplorer.java 861 3 9 3
 UnitTestCaseAction 1445432188509 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445432188510 TestPlanetExplorer FAIL
 EditAction 1445432204426 TestPlanetExplorer.java 895 3 10 3
+UnitTestCaseAction 1445432211566 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432211567 TestPlanetExplorer OK
+RefactoringAction 1445432273892 TestPlanetExplorer.java ADD void turnLeft FIELD
+RefactoringAction 1445432277406 TestPlanetExplorer.java RENAME turnLeft=>void turnLeftF FIELD
+RefactoringAction 1445432281420 TestPlanetExplorer.java RENAME turnLeftF=>void turnLeftFacing FIELD
+RefactoringAction 1445432287434 TestPlanetExplorer.java RENAME turnLeftFacing=>void turnLeftFromFacing FIELD
+RefactoringAction 1445432289449 TestPlanetExplorer.java RENAME turnLeftFromFacing=>void turnLeftFromFacingEast() METHOD
+EditAction 1445432428742 TestPlanetExplorer.java 1151 4 14 4

@@ -36,4 +36,16 @@ public class TestPlanetExplorer {
 		assertEquals("(5,5,E)", pExplorer.getCurrentLocation());
 	}
 	
+	@Test
+	public void turnLeftFromFacingEast(){
+		
+		PlanetExplorer pExplorer = new PlanetExplorer(10,10);
+		
+		pExplorer.setLocation(5, 5, "E");
+		
+        pExplorer.turnLeft();
+		
+		assertEquals("(5,5,N)", pExplorer.getCurrentLocation());
+	}
+	
 }
