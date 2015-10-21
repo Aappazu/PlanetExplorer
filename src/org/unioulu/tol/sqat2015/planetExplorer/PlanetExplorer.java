@@ -1,8 +1,8 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
-// Finish time:
+// ID: 106
+// Finish time: 16:38
 
 public class PlanetExplorer {
 	
@@ -158,17 +158,17 @@ public class PlanetExplorer {
 		 */
 		
 		for(int i = 0; i < command.length(); i++){
-			if(command.charAt(i) == "f"){
-				pExplorer.moveForward(); //Problem
+			if(command.charAt(i) == 'f'){
+				moveForward();
 			}
-			else if(command.charAt(i) == "l"){
-				pExplorer.turnLeft();
+			else if(command.charAt(i) == 'l'){
+				turnLeft();
 			}
-			else if(command.charAt(i) == "r"){
-				pExplorer.turnRight();
+			else if(command.charAt(i) == 'r'){
+				turnRight();
 			}
-			else if(command.charAt(i) == "b"){
-				pExplorer.moveBackward();
+			else if(command.charAt(i) == 'b'){
+				moveBackward();
 			}
 		}
 		
