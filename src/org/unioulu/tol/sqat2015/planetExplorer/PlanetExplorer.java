@@ -67,13 +67,13 @@ public class PlanetExplorer {
 	
 	public void turnLeft(){
 		if(explorerFacing == "N"){
-			explorerFacing = "W";
+			explorerFacing = "E";
 		}
 		else if(explorerFacing == "E"){
 			explorerFacing = "S";
 		}
 		else if(explorerFacing == "S"){
-			explorerFacing = "E";
+			explorerFacing = "W";
 		}
 		else{
 			explorerFacing = "S";
