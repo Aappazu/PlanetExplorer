@@ -29,3 +29,5 @@ RefactoringAction 1445428106200 PlanetExplorer.java ADD int FIELD
 RefactoringAction 1445428150901 PlanetExplorer.java REMOVE sizeX FIELD
 RefactoringAction 1445428150902 PlanetExplorer.java REMOVE sizeY FIELD
 EditAction 1445428183894 PlanetExplorer.java 1449 3 2 0
+RefactoringAction 1445428238510 PlanetExplorer.java ADD void landing FIELD
+EditAction 1445428242837 PlanetExplorer.java 1449 3 2 0
