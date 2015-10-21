@@ -108,7 +108,7 @@ public class PlanetExplorer {
 			explorerYCoord--;
 		}
 		else if(explorerYCoord < maxYCoord && explorerFacing == "S"){
-			explorerYCoord--;
+			explorerYCoord++;
 		}
 		else{
 			
