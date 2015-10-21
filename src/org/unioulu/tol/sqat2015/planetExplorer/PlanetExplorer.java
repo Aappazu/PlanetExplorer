@@ -76,7 +76,7 @@ public class PlanetExplorer {
 			explorerFacing = "W";
 		}
 		else{
-			explorerFacing = "S";
+			explorerFacing = "N";
 		}
 	}
 	
