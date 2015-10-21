@@ -15,3 +15,4 @@ RefactoringAction 1445427672548 TestPlanetExplorer.java RENAME import org.unioul
 RefactoringAction 1445427674064 TestPlanetExplorer.java RENAME import org.unioulu.tol.sqat2015.planetExplorer=>import org.unioulu.tol.sqat2015.planetExplorer.* IMPORT
 EditAction 1445427676302 TestPlanetExplorer.java 287 1 1 0
 EditAction 1445427744433 PlanetExplorer.java 1473 3 3 0
+EditAction 1445427759312 PlanetExplorer.java 1468 3 3 0
