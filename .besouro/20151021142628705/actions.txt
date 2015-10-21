@@ -80,3 +80,9 @@ CompilationAction 1445429816061 PlanetExplorer.java
 RefactoringAction 1445429843587 TestPlanetExplorer.java REMOVE landingCompleted() METHOD
 EditAction 1445429844760 TestPlanetExplorer.java 583 1 3 1
 EditAction 1445429850942 TestPlanetExplorer.java 591 1 3 1
+RefactoringAction 1445429886124 PlanetExplorer.java RENAME <initializer /1>=>PlanetExplorer(int, int, String) METHOD
+CompilationAction 1445429886608 PlanetExplorer.java
+UnitTestCaseAction 1445429889855 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429889857 TestPlanetExplorer OK
+RefactoringAction 1445429930951 TestPlanetExplorer.java ADD void landingCompleted() METHOD
+EditAction 1445429982371 TestPlanetExplorer.java 628 2 6 2

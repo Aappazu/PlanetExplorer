@@ -7,12 +7,14 @@ import org.unioulu.tol.sqat2015.planetExplorer.*;
 
 public class TestPlanetExplorer {
 
-	/*@Test
+	@Test
 	public void landingCompleted() {
 		PlanetExplorer pExplorer = new PlanetExplorer(100,100);
 		
+		pExplorer.setLocation(5, 5, "E");
+		
 		assertEquals("(0,0,N)", pExplorer.land());
-	}*/
+	}
 	
 	@Test
 	public void currentLocationReturn(){
