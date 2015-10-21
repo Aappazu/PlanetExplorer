@@ -13,7 +13,7 @@ public class TestPlanetExplorer {
 		
 		pExplorer.setLocation(5, 5,"E");
 		
-		assertEquals("(0,0,N)", pExplorer.land());
+		assertEquals("(0,0,N)", pExplorer.land(pExplorer));
 	}
 	
 	@Test
