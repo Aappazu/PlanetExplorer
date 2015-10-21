@@ -105,6 +105,9 @@ public class PlanetExplorer {
 		else if(explorerYCoord > 0 && explorerFacing == "N"){
 			explorerYCoord--;
 		}
+		else if(explorerYCoord < 10 && explorerFacing == "S"){
+			explorerYCoord--;
+		}
 	}
 	
 	public PlanetExplorer(int x, int y, String obstacles){
