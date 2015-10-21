@@ -31,3 +31,7 @@ RefactoringAction 1445428150902 PlanetExplorer.java REMOVE sizeY FIELD
 EditAction 1445428183894 PlanetExplorer.java 1449 3 2 0
 RefactoringAction 1445428238510 PlanetExplorer.java ADD void landing FIELD
 EditAction 1445428242837 PlanetExplorer.java 1449 3 2 0
+RefactoringAction 1445428360481 TestPlanetExplorer.java RENAME createPlanet()=>void lad() METHOD
+RefactoringAction 1445428361993 TestPlanetExplorer.java RENAME lad()=>void landing() METHOD
+RefactoringAction 1445428365005 TestPlanetExplorer.java RENAME landing()=>void landingCompleted() METHOD
+EditAction 1445428413334 TestPlanetExplorer.java 368 1 2 1

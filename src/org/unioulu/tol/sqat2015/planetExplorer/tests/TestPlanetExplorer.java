@@ -8,7 +8,9 @@ import org.unioulu.tol.sqat2015.planetExplorer.*;
 public class TestPlanetExplorer {
 
 	@Test
-	public void createPlanet() {
-		fail("Not yet implemented");
+	public void landingCompleted() {
+		PlanetExplorer pExplorer = new PlanetExplorer(100,100);
+		
+		assertEquals("(0,0,N)", pExplorer.land());
 	}
 }
