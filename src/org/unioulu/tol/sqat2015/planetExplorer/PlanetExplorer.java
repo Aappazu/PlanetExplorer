@@ -27,7 +27,7 @@ public class PlanetExplorer {
 	}
 	
 	public String land(PlanetExplorer pExp){
-		String flightRoute = "";
+		flightRoute = "";
 		
 		if(explorerFacing == "N"){
 			pExp.turnLeft();
