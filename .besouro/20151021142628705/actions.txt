@@ -262,3 +262,24 @@ EditAction 1445433901149 PlanetExplorer.java 3634 9 17 0
 UnitTestCaseAction 1445433903317 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445433903318 TestPlanetExplorer OK
 EditAction 1445434333616 PlanetExplorer.java 3965 9 18 0
+CompilationAction 1445434333892 PlanetExplorer.java
+CompilationAction 1445434333892 PlanetExplorer.java
+RefactoringAction 1445434350677 PlanetExplorer.java ADD void moveForward()/2 METHOD
+RefactoringAction 1445434356201 PlanetExplorer.java RENAME moveForward()/2=>void moveBackward() METHOD
+CompilationAction 1445434428704 PlanetExplorer.java
+CompilationAction 1445434428705 PlanetExplorer.java
+CompilationAction 1445434428862 PlanetExplorer.java
+CompilationAction 1445434428863 PlanetExplorer.java
+CompilationAction 1445434447452 PlanetExplorer.java
+CompilationAction 1445434447453 PlanetExplorer.java
+CompilationAction 1445434447612 PlanetExplorer.java
+CompilationAction 1445434447612 PlanetExplorer.java
+CompilationAction 1445434447613 PlanetExplorer.java
+CompilationAction 1445434454978 PlanetExplorer.java
+CompilationAction 1445434455136 PlanetExplorer.java
+CompilationAction 1445434455136 PlanetExplorer.java
+CompilationAction 1445434482634 PlanetExplorer.java
+CompilationAction 1445434482635 PlanetExplorer.java
+CompilationAction 1445434482792 PlanetExplorer.java
+CompilationAction 1445434482793 PlanetExplorer.java
+EditAction 1445434486665 PlanetExplorer.java 4368 10 19 0
