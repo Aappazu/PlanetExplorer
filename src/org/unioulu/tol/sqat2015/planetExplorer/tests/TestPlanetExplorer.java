@@ -112,4 +112,17 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	@Test
+	public void moveForwardFromMaxXEast(){
+		
+		PlanetExplorer pExplorer = new PlanetExplorer(10,10);
+		
+		pExplorer.setLocation(9, 0, "E");
+		
+		pExplorer.moveForward();
+		
+		assertEquals("(1,0,E)", pExplorer.getCurrentLocation());
+		
+	}
+	
 }

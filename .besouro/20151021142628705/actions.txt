@@ -236,3 +236,8 @@ UnitTestSessionAction 1445433515828 TestPlanetExplorer OK
 RefactoringAction 1445433547223 TestPlanetExplorer.java ADD void moveForwardFromZeroZeroSouth()/2 METHOD
 RefactoringAction 1445433552243 TestPlanetExplorer.java RENAME moveForwardFromZeroZeroSouth()/2=>void moveForwardFromZeroZeroEast() METHOD
 EditAction 1445433562860 TestPlanetExplorer.java 2460 9 34 9
+UnitTestCaseAction 1445433564897 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433564898 TestPlanetExplorer OK
+RefactoringAction 1445433575396 TestPlanetExplorer.java ADD void moveForwardFromZeroZeroEast()/2 METHOD
+RefactoringAction 1445433581917 TestPlanetExplorer.java RENAME moveForwardFromZeroZeroEast()/2=>void moveForwardFromMaxXEast() METHOD
+EditAction 1445433593917 TestPlanetExplorer.java 2718 10 38 10
