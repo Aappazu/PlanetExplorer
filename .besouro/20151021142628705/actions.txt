@@ -23,3 +23,9 @@ RefactoringAction 1445427785314 PlanetExplorer.java RENAME PlanetExploer(int, in
 CompilationAction 1445427788807 PlanetExplorer.java
 EditAction 1445427799175 PlanetExplorer.java 1469 3 3 0
 EditAction 1445427806545 PlanetExplorer.java 1464 3 3 0
+RefactoringAction 1445428001555 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445428082612 PlanetExplorer.java REMOVE grid FIELD
+RefactoringAction 1445428106200 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445428150901 PlanetExplorer.java REMOVE sizeX FIELD
+RefactoringAction 1445428150902 PlanetExplorer.java REMOVE sizeY FIELD
+EditAction 1445428183894 PlanetExplorer.java 1449 3 2 0

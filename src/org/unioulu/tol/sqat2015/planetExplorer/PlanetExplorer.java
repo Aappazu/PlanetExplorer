@@ -5,12 +5,12 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	
-	private int sizeX;
-	private int sizeY;
+	private int[][] grid;
 	
 	public PlanetExplorer(int x, int y){
-		sizeX = x;
-		sizeY = y;
+
+		grid = new int[x][y];
+		
 	}
 	
 	public PlanetExplorer(int x, int y, String obstacles){
