@@ -5,11 +5,28 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	
-	private int[][] grid;
+	private String[][] grid;
+	private int explorerXCoord;
+	private int explorerYCoord;
+	private String explorerFacing;
 	
 	public PlanetExplorer(int x, int y){
 
-		grid = new int[x][y];
+		grid = new String[x][y];
+		
+	}
+	
+	public void setLocation(int xCoord, int yCoord, String face){
+		explorerXCoord = xCoord;
+		explorerYCoord = yCoord;
+		explorerFacing = face;
+	}
+	
+	public String getLocation(){
+		return "(" + explorerXCoord + "," + explorerYCoord + "," + explorerFacing + ")";
+	}
+	
+	public String land(){
 		
 	}
 	

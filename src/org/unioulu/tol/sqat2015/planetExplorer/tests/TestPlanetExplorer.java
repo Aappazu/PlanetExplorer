@@ -17,6 +17,9 @@ public class TestPlanetExplorer {
 	public void currentLocationReturn(){
 		PlanetExplorer pExplorer = new PlanetExplorer(10,10);
 		
-		assertEquals("(5,5,E)", pExplorer.currentLocation());
+		pExplorer.setLocation(5, 5, "E");
+		
+		assertEquals("(5,5,E)", pExplorer.getCurrentLocation());
 	}
+	
 }

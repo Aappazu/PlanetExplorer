@@ -40,3 +40,37 @@ RefactoringAction 1445428421082 PlanetExplorer.java ADD void land() METHOD
 RefactoringAction 1445428617176 TestPlanetExplorer.java ADD void currentLocation() METHOD
 RefactoringAction 1445428719417 TestPlanetExplorer.java RENAME currentLocation()=>void currentLocationReturn() METHOD
 EditAction 1445428814624 TestPlanetExplorer.java 532 2 4 2
+CompilationAction 1445428814727 TestPlanetExplorer.java
+CompilationAction 1445428814728 TestPlanetExplorer.java
+RefactoringAction 1445428826040 TestPlanetExplorer.java ADD void setLocation() METHOD
+RefactoringAction 1445428871098 TestPlanetExplorer.java REMOVE setLocation() METHOD
+RefactoringAction 1445428886931 PlanetExplorer.java ADD void setLocation() METHOD
+RefactoringAction 1445428904959 PlanetExplorer.java RENAME setLocation()=>void setLocation(PlanetExplorer) METHOD
+RefactoringAction 1445428929075 PlanetExplorer.java RENAME setLocation(PlanetExplorer)=>void setLocation(PlanetExplorer, int) METHOD
+RefactoringAction 1445428932592 PlanetExplorer.java RENAME setLocation(PlanetExplorer, int)=>void setLocation(PlanetExplorer, int, int) METHOD
+CompilationAction 1445429045912 PlanetExplorer.java
+CompilationAction 1445429045913 TestPlanetExplorer.java
+RefactoringAction 1445429065230 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445429070243 TestPlanetExplorer.java REMOVE test FIELD
+RefactoringAction 1445429133369 PlanetExplorer.java ADD String getLocation() METHOD
+RefactoringAction 1445429156422 PlanetExplorer.java RENAME setLocation(PlanetExplorer, int, int)=>void setLocation(int, int) METHOD
+CompilationAction 1445429183485 PlanetExplorer.java
+CompilationAction 1445429183653 PlanetExplorer.java
+CompilationAction 1445429183653 TestPlanetExplorer.java
+RefactoringAction 1445429312139 PlanetExplorer.java ADD int explorerXCoord FIELD
+RefactoringAction 1445429320154 PlanetExplorer.java ADD int explorerYCoord FIELD
+RefactoringAction 1445429327687 PlanetExplorer.java ADD char e FIELD
+RefactoringAction 1445429329203 PlanetExplorer.java RENAME e=>char explorer FIELD
+RefactoringAction 1445429331219 PlanetExplorer.java RENAME explorer=>char explorerFacing FIELD
+RefactoringAction 1445429363273 PlanetExplorer.java RENAME setLocation(PlanetExplorer, int, int)=>void setLocation(PlanetExplorer, int, int, char) METHOD
+RefactoringAction 1445429474915 PlanetExplorer.java RENAME setLocation(PlanetExplorer, int, int, char)=>void setLocation(int, int, char) METHOD
+CompilationAction 1445429475595 PlanetExplorer.java
+CompilationAction 1445429475765 PlanetExplorer.java
+CompilationAction 1445429475765 TestPlanetExplorer.java
+CompilationAction 1445429575994 PlanetExplorer.java
+CompilationAction 1445429576148 PlanetExplorer.java
+CompilationAction 1445429662698 TestPlanetExplorer.java
+RefactoringAction 1445429744902 PlanetExplorer.java RENAME setLocation(int, int, char)=>void setLocation(int, int, String) METHOD
+CompilationAction 1445429750056 PlanetExplorer.java
+CompilationAction 1445429750233 PlanetExplorer.java
+EditAction 1445429810970 TestPlanetExplorer.java 579 2 5 2
