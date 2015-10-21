@@ -111,7 +111,7 @@ public class PlanetExplorer {
 			explorerYCoord--;
 		}
 		else{
-			return;
+			
 		}
 	}
 	
