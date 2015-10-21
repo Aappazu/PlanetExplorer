@@ -55,9 +55,9 @@ public class TestPlanetExplorer {
 		
 		pExplorer.setLocation(5, 5, "E");
 		
-        pExplorer.turnLeft();
+        pExplorer.turnRight();
 		
-		assertEquals("(5,5,N)", pExplorer.getCurrentLocation());
+		assertEquals("(5,5,S)", pExplorer.getCurrentLocation());
 	}
 	
 }
