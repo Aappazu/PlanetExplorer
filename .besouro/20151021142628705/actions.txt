@@ -252,3 +252,4 @@ UnitTestSessionAction 1445433618994 TestPlanetExplorer OK
 RefactoringAction 1445433656275 TestPlanetExplorer.java REMOVE currentLocationReturn() METHOD
 RefactoringAction 1445433660813 TestPlanetExplorer.java ADD void currentLocationReturn() METHOD
 EditAction 1445433660817 TestPlanetExplorer.java 2988 11 42 11
+EditAction 1445433664435 TestPlanetExplorer.java 2983 11 42 11

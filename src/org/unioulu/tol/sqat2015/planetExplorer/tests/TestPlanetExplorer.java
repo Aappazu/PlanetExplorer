@@ -36,8 +36,6 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,N)", pExplorer.getCurrentLocation());
 	}
 	
-
-	
 	@Test
 	public void turnLeftFromFacingEast(){
 		
