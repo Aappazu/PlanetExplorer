@@ -31,25 +31,28 @@ public class PlanetExplorer {
 		
 		if(explorerFacing == "N"){
 			pExp.turnLeft();
+			flightRoute = flightRoute + "l";
 		}
 		else if(explorerFacing == "E"){
 			pExp.turnLeft();
 			pExp.turnLeft();
+			flightRoute = flightRoute + "l";
+			flightRoute = flightRoute + "l";
 		}
 		else if(explorerFacing == "S"){
 			pExp.turnRight();
+			flightRoute = flightRoute + "r";
 		}
-		else{
 		
-		    while(explorerXCoord > 0){
+		while(explorerXCoord > 0){
 			
-			    flightRoute = flightRoute + "f";
+			flightRoute = flightRoute + "f";
 			
-			    explorerXCoord--;
-		    }
+			explorerXCoord--;
 		}
 		
 		pExp.turnRight(); //Turn right to go up
+		flightRoute = flightRoute + "r";
 		
 		while(explorerYCoord > 0){
 			
@@ -58,6 +61,38 @@ public class PlanetExplorer {
 			explorerYCoord--;
 		}
 		
+		return "(" + explorerXCoord + "," + explorerYCoord + "," + explorerFacing + ")";
+		
+	}
+	
+	public void turnLeft(){
+		if(explorerFacing == "N"){
+			explorerFacing = "E";
+		}
+		else if(explorerFacing == "E"){
+			explorerFacing = "S";
+		}
+		else if(explorerFacing == "S"){
+			explorerFacing = "W";
+		}
+		else{
+			explorerFacing = "N";
+		}
+	}
+	
+	public void turnRight(){
+		if(explorerFacing == "N"){
+			explorerFacing = "W";
+		}
+		else if(explorerFacing == "E"){
+			explorerFacing = "N";
+		}
+		else if(explorerFacing == "S"){
+			explorerFacing = "E";
+		}
+		else{
+			explorerFacing = "S";
+		}
 	}
 	
 	public PlanetExplorer(int x, int y, String obstacles){
