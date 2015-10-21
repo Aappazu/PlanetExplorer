@@ -70,7 +70,7 @@ public class PlanetExplorer {
 			explorerFacing = "W";
 		}
 		else if(explorerFacing == "E"){
-			explorerFacing = "N";
+			explorerFacing = "S";
 		}
 		else if(explorerFacing == "S"){
 			explorerFacing = "E";
