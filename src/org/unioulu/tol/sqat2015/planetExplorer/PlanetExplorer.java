@@ -22,7 +22,7 @@ public class PlanetExplorer {
 		explorerFacing = face;
 	}
 	
-	public String getLocation(){
+	public String getCurrentLocation(){
 		return "(" + explorerXCoord + "," + explorerYCoord + "," + explorerFacing + ")";
 	}
 	

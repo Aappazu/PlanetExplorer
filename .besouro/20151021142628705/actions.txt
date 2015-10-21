@@ -74,3 +74,8 @@ RefactoringAction 1445429744902 PlanetExplorer.java RENAME setLocation(int, int,
 CompilationAction 1445429750056 PlanetExplorer.java
 CompilationAction 1445429750233 PlanetExplorer.java
 EditAction 1445429810970 TestPlanetExplorer.java 579 2 5 2
+CompilationAction 1445429811078 TestPlanetExplorer.java
+CompilationAction 1445429815898 PlanetExplorer.java
+CompilationAction 1445429816061 PlanetExplorer.java
+RefactoringAction 1445429843587 TestPlanetExplorer.java REMOVE landingCompleted() METHOD
+EditAction 1445429844760 TestPlanetExplorer.java 583 1 3 1
