@@ -4,3 +4,6 @@ RefactoringAction 1445427552858 PlanetExplorer.java ADD int sizeX FIELD
 RefactoringAction 1445427559401 PlanetExplorer.java ADD int sizeY FIELD
 RefactoringAction 1445427590451 PlanetExplorer.java ADD void PlanetExpoler(int) METHOD
 EditAction 1445427610342 PlanetExplorer.java 1467 3 1 0
+CompilationAction 1445427610735 PlanetExplorer.java
+RefactoringAction 1445427622450 PlanetExplorer.java RENAME PlanetExpoler(int)=>void PlanetExpoler(int, int) METHOD
+EditAction 1445427622704 PlanetExplorer.java 1468 3 3 0
