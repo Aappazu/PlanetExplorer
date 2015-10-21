@@ -9,7 +9,7 @@ import org.unioulu.tol.sqat2015.planetExplorer.*;
 public class TestPlanetExplorer {
 	
 	@Before
-	public void Setup(){
+	public void setup(){
 		PlanetExplorer pExplorer = new PlanetExplorer(100,100);
 	}
 

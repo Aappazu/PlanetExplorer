@@ -176,3 +176,8 @@ RefactoringAction 1445432500703 TestPlanetExplorer.java ADD import org.junit.Bef
 CompilationAction 1445432503712 TestPlanetExplorer.java
 CompilationAction 1445432503713 TestPlanetExplorer.java
 EditAction 1445432533692 TestPlanetExplorer.java 1241 6 14 5
+CompilationAction 1445432533960 TestPlanetExplorer.java
+CompilationAction 1445432533960 TestPlanetExplorer.java
+CompilationAction 1445432573529 TestPlanetExplorer.java
+CompilationAction 1445432573529 TestPlanetExplorer.java
+EditAction 1445432583710 TestPlanetExplorer.java 1241 6 14 5
