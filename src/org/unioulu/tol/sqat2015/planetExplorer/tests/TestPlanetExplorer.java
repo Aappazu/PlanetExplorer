@@ -6,6 +6,11 @@ import org.junit.Test;
 import org.unioulu.tol.sqat2015.planetExplorer.*;
 
 public class TestPlanetExplorer {
+	
+	@Before
+	public void Setup(){
+		PlanetExplorer pExplorer = new PlanterExplorer(100,100);
+	}
 
 	@Test
 	public void landingCompletedRoute() {
