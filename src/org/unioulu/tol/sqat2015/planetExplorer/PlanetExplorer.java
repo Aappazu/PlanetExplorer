@@ -139,6 +139,21 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		for(int i = 0; i < command.length(); i++){
+			if(command.charAt(i) == "f"){
+				pExplorer.moveForward(); //Problem
+			}
+			else if(command.charAt(i) == "l"){
+				pExplorer.turnLeft();
+			}
+			else if(command.charAt(i) == "r"){
+				pExplorer.turnRight();
+			}
+			else if(command.charAt(i) == "b"){
+				
+			}
+		}
+		
 		return null;
 	}
 }
