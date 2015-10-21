@@ -73,4 +73,17 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	@Test
+	public void moveForwardFromMaxYSouth(){
+		
+		PlanetExplorer pExplorer = new PlanetExplorer(10,10);
+		
+		pExplorer.setLocation(9, 9, "S");
+		
+		pExplorer.moveForward();
+		
+		assertEquals("(0,1,S)", pExplorer.getCurrentLocation());
+		
+	}
+	
 }

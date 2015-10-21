@@ -215,3 +215,10 @@ EditAction 1445433187107 PlanetExplorer.java 3575 9 16 0
 UnitTestCaseAction 1445433194185 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433194186 TestPlanetExplorer.moveForwardFromZeroZeroSouth FAIL
 EditAction 1445433327218 PlanetExplorer.java 3611 9 18 0
+UnitTestCaseAction 1445433329575 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433329576 TestPlanetExplorer.moveForwardFromZeroZeroSouth OK
+RefactoringAction 1445433343700 TestPlanetExplorer.java ADD void moveForwardFromZeroZeroSouth()/2 METHOD
+RefactoringAction 1445433357218 TestPlanetExplorer.java RENAME moveForwardFromZeroZeroSouth()/2=>void moveForwardFromSouth() METHOD
+RefactoringAction 1445433359236 TestPlanetExplorer.java RENAME moveForwardFromSouth()=>void moveForwardFromMaxSouth() METHOD
+RefactoringAction 1445433360252 TestPlanetExplorer.java RENAME moveForwardFromMaxSouth()=>void moveForwardFromMaxYSouth() METHOD
+EditAction 1445433392352 TestPlanetExplorer.java 1931 7 26 7
