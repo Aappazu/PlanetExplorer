@@ -168,7 +168,7 @@ public class PlanetExplorer {
 				pExplorer.turnRight();
 			}
 			else if(command.charAt(i) == "b"){
-				
+				pExplorer.moveBackward();
 			}
 		}
 		
