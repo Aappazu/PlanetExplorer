@@ -33,7 +33,6 @@ public class PlanetExplorer {
 	}
 	
 	public String land(PlanetExplorer pExp){
-		String flightRoute = "";
 		
 		if(explorerFacing == "N"){
 			pExp.turnLeft();
