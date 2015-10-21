@@ -9,7 +9,7 @@ public class PlanetExplorer {
 	private int sizeY;
 	
 	public void PlanetExpoler(int x, int y){
-		sizeX = x;
+		this.sizeX = x;
 		sizeY = y;
 	}
 	
