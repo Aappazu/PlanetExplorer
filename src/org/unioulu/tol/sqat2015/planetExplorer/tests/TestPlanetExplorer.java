@@ -130,7 +130,7 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer pExplorer = new PlanetExplorer(10,10);
 		
-		pExplorer.setLocation(9, 0, "E");
+		pExplorer.setLocation(8, 0, "E");
 		
 		pExplorer.moveForward();
 		
