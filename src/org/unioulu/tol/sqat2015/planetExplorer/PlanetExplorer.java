@@ -8,7 +8,7 @@ public class PlanetExplorer {
 	private int sizeX;
 	private int sizeY;
 	
-	public void PlanetExpoler(int x, int y){
+	public PlanetExpoler(int x, int y){
 		sizeX = x;
 		sizeY = y;
 	}
