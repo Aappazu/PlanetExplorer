@@ -17,6 +17,15 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void getLandingLocation(){
+		PlanetExplorer pExplorer = new PlanetExplorer(100,100);
+		
+		pExplorer.setLocation(5,5, "E");
+		
+		assertEquals("(0,0,N)", pExplorer.getCurrentLocation());
+	}
+	
+	@Test
 	public void currentLocationReturn(){
 		PlanetExplorer pExplorer = new PlanetExplorer(10,10);
 		

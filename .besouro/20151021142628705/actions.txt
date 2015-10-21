@@ -148,3 +148,5 @@ UnitTestCaseAction 1445432062423 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445432062424 TestPlanetExplorer OK
 RefactoringAction 1445432077875 TestPlanetExplorer.java RENAME landingCompleted()=>void landingRoute() METHOD
 EditAction 1445432083093 TestPlanetExplorer.java 647 2 6 2
+RefactoringAction 1445432100421 TestPlanetExplorer.java ADD void getLandingLocation() METHOD
+EditAction 1445432184369 TestPlanetExplorer.java 861 3 9 3
