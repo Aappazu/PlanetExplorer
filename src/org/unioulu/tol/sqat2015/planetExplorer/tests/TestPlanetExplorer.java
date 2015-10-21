@@ -124,5 +124,18 @@ public class TestPlanetExplorer {
 		assertEquals("(9,0,E)", pExplorer.getCurrentLocation());
 		
 	}
+
+	@Test
+	public void moveForwardFromMaxXMinusOneEast(){
+		
+		PlanetExplorer pExplorer = new PlanetExplorer(10,10);
+		
+		pExplorer.setLocation(9, 0, "E");
+		
+		pExplorer.moveForward();
+		
+		assertEquals("(9,0,E)", pExplorer.getCurrentLocation());
+		
+	}
 	
 }
