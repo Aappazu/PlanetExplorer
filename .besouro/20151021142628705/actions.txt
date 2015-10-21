@@ -1,0 +1,6 @@
+FileOpenedAction 1445426789070 TestPlanetExplorer.java 228 1 1 0
+FileOpenedAction 1445427489210 PlanetExplorer.java 1342 2 1 0
+RefactoringAction 1445427552858 PlanetExplorer.java ADD int sizeX FIELD
+RefactoringAction 1445427559401 PlanetExplorer.java ADD int sizeY FIELD
+RefactoringAction 1445427590451 PlanetExplorer.java ADD void PlanetExpoler(int) METHOD
+EditAction 1445427610342 PlanetExplorer.java 1467 3 1 0
