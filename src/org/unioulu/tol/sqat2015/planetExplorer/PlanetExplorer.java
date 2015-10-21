@@ -15,6 +15,8 @@ public class PlanetExplorer {
 	public PlanetExplorer(int x, int y){
 
 		grid = new String[x][y];
+		maxXCoord = x;
+		maxYCoord = y;
 		
 	}
 	
