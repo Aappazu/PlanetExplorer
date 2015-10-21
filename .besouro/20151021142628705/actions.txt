@@ -94,3 +94,18 @@ RefactoringAction 1445430045157 PlanetExplorer.java RENAME <initializer /1>=>Str
 EditAction 1445430430559 PlanetExplorer.java 2001 6 8 0
 CompilationAction 1445430430835 PlanetExplorer.java
 EditAction 1445430513775 PlanetExplorer.java 2109 6 9 0
+CompilationAction 1445430514049 PlanetExplorer.java
+RefactoringAction 1445430684680 PlanetExplorer.java RENAME land()=>String land(PlanetExplorer) METHOD
+CompilationAction 1445430764788 PlanetExplorer.java
+CompilationAction 1445430764957 PlanetExplorer.java
+CompilationAction 1445430764958 PlanetExplorer.java
+CompilationAction 1445430764958 PlanetExplorer.java
+CompilationAction 1445430764958 PlanetExplorer.java
+CompilationAction 1445430764958 PlanetExplorer.java
+CompilationAction 1445430764958 TestPlanetExplorer.java
+CompilationAction 1445430771100 PlanetExplorer.java
+CompilationAction 1445430771100 PlanetExplorer.java
+CompilationAction 1445430771100 PlanetExplorer.java
+CompilationAction 1445430771249 PlanetExplorer.java
+CompilationAction 1445430771250 PlanetExplorer.java
+EditAction 1445430875185 PlanetExplorer.java 2409 6 10 0

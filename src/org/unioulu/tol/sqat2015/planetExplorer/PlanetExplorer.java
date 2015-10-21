@@ -26,15 +26,30 @@ public class PlanetExplorer {
 		return "(" + explorerXCoord + "," + explorerYCoord + "," + explorerFacing + ")";
 	}
 	
-	public String land(){
+	public String land(PlanetExplorer pExp){
 		String flightRoute = "";
 		
-		while(explorerXCoord > 0){
-			
-			flightRoute = flightRoute + "f";
-			
-			explorerXCoord--;
+		if(explorerFacing == "N"){
+			pExp.turnLeft();
 		}
+		else if(explorerFacing == "E"){
+			pExp.turnLeft();
+			pExp.turnLeft();
+		}
+		else if(explorerFacing == "S"){
+			pExp.turnRight();
+		}
+		else{
+		
+		    while(explorerXCoord > 0){
+			
+			    flightRoute = flightRoute + "f";
+			
+			    explorerXCoord--;
+		    }
+		}
+		
+		pExp.turnRight(); //Turn right to go up
 		
 		while(explorerYCoord > 0){
 			
