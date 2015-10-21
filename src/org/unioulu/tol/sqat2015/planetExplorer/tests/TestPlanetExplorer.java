@@ -78,7 +78,7 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer pExplorer = new PlanetExplorer(10,10);
 		
-		pExplorer.setLocation(9, 9, "S");
+		pExplorer.setLocation(0, 9, "S");
 		
 		pExplorer.moveForward();
 		
